@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog to implement firebase</title>
+    <link rel="stylesheet" href="style.css">               <!-- linking CSS file  -->
+     <script type="module" src="firebase.js"></script>                  <!-- linking firebase.js file  -->
+    <script type="module" src="script.js"></script>                    <!-- linking Javascript file  -->
+<body>
+    <div class="container">
+        <h1>Simple Blog</h1>
+        <form id="commentForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <textarea id="comment" placeholder="Your Comment" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Comments:</h2>
+        <div id="commentsList"></div>
+    </div>
+
+</body>
+</html>
